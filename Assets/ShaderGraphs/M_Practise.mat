@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Practise
+  m_Shader: {fileID: -6465566751694194690, guid: 0f1aeb4a75e9cb540b2cfdab658dc8f8,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 3b16a6bb3fb1f4496be76190ff97c981, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxOcclusionMapping_2eed047471014b3c9b8976cb14c6a77c_Heightmap_2_Texture2D:
+        m_Texture: {fileID: 2800000, guid: edfde062a8b2a014095f4b10feff79f2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_356147d975c4412191caa51241b50604_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 5a43972a67424154da9b3212cd88225d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_6f0453a843044575bd5256c4125904c3_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 1f07e078e32c119449e414d281b4bdea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_93c6deb4807049478f6ebccfe9916c5b_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: fc4dfd93438913444a999cdcbf40057b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_ebbad7f01e3c423b8356d11eb1b66c35_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: f5e1a949c2c5f1c4b888523f4c93af5d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_fb49e198c1c149a9a7a529859c8a70ab_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: edfde062a8b2a014095f4b10feff79f2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DistortionSpeed: -0.5
+    - _DistortionStrength: 0.02
+    - _DotsDensity: 30.1
+    - _FirstEdge: 1.2
+    - _Float: 16.71
+    - _Float_1: 26.45
+    - _Offset: 0.82
+    - _OutlIneThickness: 0.73
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RefracAmount: 0.348
+    - _ScrollingSpeed: 0.01
+    - _ShadowThreshold: 0.74
+    - _Strength: 0.48
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0, g: 1, b: 0.9085026, a: 0}
+    - _Cracks: {r: 1, g: 1, b: 1, a: 0}
+    - _DotsColor: {r: 0.6886792, g: 0.5858711, b: 0.21764857, a: 1}
+    - _Dots_Color: {r: 0, g: 0.5660378, b: 0.5045305, a: 1}
+    - _EimissionColor: {r: 1.089095, g: 0.1288877, b: 0, a: 1}
+    - _EimissionColor_1: {r: 2.17819, g: 0.2577753, b: 0, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &3167224101784594204
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

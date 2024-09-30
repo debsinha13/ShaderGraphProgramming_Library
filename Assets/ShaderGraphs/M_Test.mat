@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Test
-  m_Shader: {fileID: -6465566751694194690, guid: 6f9216fdd9cc9844fa1c56a6021f2404,
+  m_Shader: {fileID: -6465566751694194690, guid: a7e85795aa308dd438aebb9542e00312,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -24,32 +24,32 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Albedo:
-        m_Texture: {fileID: 2800000, guid: 640ee290d9cbc4b4685c85ef0d50ea60, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _AmbientOccusion:
-        m_Texture: {fileID: 2800000, guid: 9bfb618b533dc42f5a73ee7d0c587ba4, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Cubemap:
-        m_Texture: {fileID: 8900000, guid: eeea3f27be48ca74ba93512131774a7a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Emission:
-        m_Texture: {fileID: 2800000, guid: 18f4738e7b97247be9c82a9ac464abd7, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 3b16a6bb3fb1f4496be76190ff97c981, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Metalic:
-        m_Texture: {fileID: 2800000, guid: f32ffb5e650814da08c0d0af7b61e23b, type: 3}
+    - _ParallaxOcclusionMapping_2eed047471014b3c9b8976cb14c6a77c_Heightmap_2_Texture2D:
+        m_Texture: {fileID: 2800000, guid: edfde062a8b2a014095f4b10feff79f2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Normal:
-        m_Texture: {fileID: 2800000, guid: 4e88f01c1b96d487da516c8c0d7b237b, type: 3}
+    - _SampleTexture2D_356147d975c4412191caa51241b50604_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 5a43972a67424154da9b3212cd88225d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_6f0453a843044575bd5256c4125904c3_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 1f07e078e32c119449e414d281b4bdea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_93c6deb4807049478f6ebccfe9916c5b_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: fc4dfd93438913444a999cdcbf40057b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_ebbad7f01e3c423b8356d11eb1b66c35_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: f5e1a949c2c5f1c4b888523f4c93af5d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_fb49e198c1c149a9a7a529859c8a70ab_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: edfde062a8b2a014095f4b10feff79f2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -66,22 +66,28 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Attenuation: 1.01
-    - _Horizon: 0.3
+    - _DistortionSpeed: -0.5
+    - _DistortionStrength: 0.02
+    - _DotsDensity: 30.1
+    - _FirstEdge: 1.2
+    - _Float: 0.57
+    - _Offset: 0.82
+    - _OutlIneThickness: 0.73
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Specular: 18.27
+    - _RefracAmount: 0.348
+    - _ScrollingSpeed: 0.01
+    - _ShadowThreshold: 0.74
+    - _Strength: 0.48
     m_Colors:
-    - _BottomColor: {r: 0, g: 0.7502594, b: 1, a: 1}
-    - _Color: {r: 0.15450332, g: 0.5561595, b: 0.8773585, a: 0}
-    - _Color1: {r: 1, g: 0.13836467, b: 0.13836467, a: 0}
-    - _Color2: {r: 1, g: 1, b: 1, a: 0}
-    - _Color3: {r: 1, g: 1, b: 1, a: 0}
-    - _Direction: {r: 0.19, g: 0.42, b: 0.21, a: 0}
-    - _EmissionColor: {r: 0.50016135, g: 1, b: 0.32547167, a: 0}
-    - _Light: {r: 0.26, g: 2.47, b: 11.75, a: 0}
-    - _LightDirection: {r: 0.36, g: 0.42, b: 0, a: 0}
-    - _TopColor: {r: 0.26415086, g: 0.12376877, b: 0.13885495, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0, g: 1, b: 0.9085026, a: 0}
+    - _Cracks: {r: 1, g: 1, b: 1, a: 0}
+    - _DotsColor: {r: 0.6886792, g: 0.5858711, b: 0.21764857, a: 1}
+    - _Dots_Color: {r: 0, g: 0.5660378, b: 0.5045305, a: 1}
+    - _EimissionColor: {r: 1.089095, g: 0.1288877, b: 0, a: 1}
+    - _EimissionColor_1: {r: 2.17819, g: 0.2577753, b: 0, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &3167224101784594204
 MonoBehaviour:
